@@ -19,7 +19,7 @@
             <div class="overlay absolute top-0 left-0 w-full h-full bg-yellow-600/80 transition-opacity duration-700"></div>
             <div class="max-w-[90rem] mx-auto h-full">
                 <div class="content transition-all duration-500 ease-out w-[85%] lg:w-1/3 ml-8 lg:ml-24">
-                    <div class="name font-aladin tracking-[.20rem] text-2xl lg:text-6xl font-bold text-white" x-text="activeSlide.title"></div>
+                    <div class="name font-aladin tracking-[.20rem] text-5xl lg:text-6xl font-bold text-white" x-text="activeSlide.title"></div>
                     <div class="description" x-text="activeSlide.text"></div>
                     {{-- <button>See More</button> --}}
                 </div>
