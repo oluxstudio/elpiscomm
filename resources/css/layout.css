@@ -1,0 +1,19 @@
+.elem-container {
+    @apply mx-auto max-w-[90rem] ;
+}
+.shadow {
+    @apply shadow-xl shadow-black/20;
+}
+.nav-icon {
+    @apply h-5 text-yellow-500 mr-3;
+}
+
+#Logo {
+    @apply font-aladin;
+}
+
+.sayings{
+    .embla__controls{
+        @apply absolute left-4 bottom-2;
+    }
+}

@@ -1,0 +1,36 @@
+<?php
+return [
+    [
+        'title' => 'Campaign 1',
+        'name' => 'campaign-1',
+        'image' => 'images/moment.jpg',
+        'status' => 'active',
+        'content' => "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+        'goal' => 700,
+        'description' => 'Campaign 1 description',
+        'start_date' => '2019-01-01',
+        'end_date' => '2019-12-31',
+    ],
+    [
+        'title' => 'Campaign 2',
+        'name' => 'campaign-2',
+        'image' => 'images/school-bus.jpg',
+        'status' => 'active',
+        'content' => '<p>This is campaign 2 content.</p>',
+        'goal' => 500,
+        'description' => 'Campaign 2 description',
+        'start_date' => '2019-01-01',
+        'end_date' => '2019-12-31',
+    ],
+    [
+        'title' => 'Campaign 3',
+        'name' => 'campaign-3',
+        'image' => 'images/help-poor-kids.jpg',
+        'status' => 'active',
+        'content' => '<p>This is campaign 3 content.</p>',
+        'goal' => 1000,
+        'description' => 'Campaign 3 description',
+        'start_date' => '2019-01-01',
+        'end_date' => '2019-12-31',
+    ],
+];

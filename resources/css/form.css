@@ -1,0 +1,3 @@
+.error-ab{
+    @apply text-red-600 text-sm absolute right-5 bottom-1;
+}

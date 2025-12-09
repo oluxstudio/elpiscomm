@@ -1,0 +1,13 @@
+[33mcommit b72341e197213c7fa15c071c1edae92bbfbac534[m
+Merge: b7881c4 c2897ed
+Author: oluxstudio <oluxstudio@gmail.com>
+Date:   Tue Dec 9 04:35:44 2025 +0000
+
+    Merge branch 'main' of https://github.com/oluxstudio/elpiscomm
+    Initial setup
+
+[33mcommit b7881c4aaef476019beb66813c6653eb89741168[m[33m ([m[1;32mmaster[m[33m)[m
+Author: oluxstudio <oluxstudio@gmail.com>
+Date:   Tue Dec 9 03:14:20 2025 +0000
+
+    Initial commit
