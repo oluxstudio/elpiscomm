@@ -15,22 +15,22 @@
 </head>
 <body class="antialiased bg-gray-50 font-baloo">
 
-    <div class="min-h-screen flex flex-col justify-center items-center px-6">
-        {{-- <x-layouts.navbar /> --}}
-        <h1 class="text-5xl font-bold text-black font-aladin " >Site Underconstruction</h1>
-        <h3> We are working on this page. Please come back soon. </h3>
+    <div class="min-h-screen flex flex-col">
+        <x-layouts.navbar />
+        
         <!-- Page Content -->
-        {{-- <main class="flex-1 relative z-0">
+        <main class="flex-1 relative z-0">
             {{ $slot }}            
-        </main> --}}
+        </main>
 
         <!-- Footer -->
-        {{-- <x-layouts.footer /> --}}
+        <x-layouts.footer />
     </div>
 
     {{-- @livewireScripts --}}
     @stack('scripts')
     <!-- Optional: Toast/Notifications -->
     {{-- <x-notifications /> --}}
+
 </body>
 </html>
