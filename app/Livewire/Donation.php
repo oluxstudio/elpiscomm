@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Auth;
 
 class Donation extends Component
 {
-    public $amount = 49.99; // Amount in USD
-    public $description = "Premium Plan Subscription";
+    public $amount = 20.99; // Amount in GBP Pounds
+    public $description = "General Donation";
     public $success_url;
     public $cancel_url;
 
@@ -38,7 +38,7 @@ class Donation extends Component
             'payment_method_types' => ['card'],
             'line_items' => [[
                 'price_data' => [
-                    'currency' => 'usd',
+                    'currency' => 'gbp',
                     'product_data' => [
                         'name' => $this->description,
                     ],
