@@ -16,15 +16,9 @@
 <body class="antialiased bg-gray-50 font-baloo">
 
     <div class="min-h-screen flex flex-col">
-        <x-layouts.navbar />
         
-        <!-- Page Content -->
-        <main class="flex-1 relative z-0">
-            {{ $slot }}            
-        </main>
-
-        <!-- Footer -->
-        <x-layouts.footer />
+        <h1 class="text-5xl font-bold text-black font-aladin " >Site Underconstruction</h1>
+        <h3> We are working on this page. Please come back soon. </h3>
     </div>
 
     {{-- @livewireScripts --}}
