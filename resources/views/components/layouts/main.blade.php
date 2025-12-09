@@ -15,7 +15,7 @@
 </head>
 <body class="antialiased bg-gray-50 font-baloo">
 
-    <div class="min-h-screen flex flex-col">
+    <div class="min-h-screen flex flex-col  justify-center items-center px-6">
         
         <h1 class="text-5xl font-bold text-black font-aladin " >Site Underconstruction</h1>
         <h3> We are working on this page. Please come back soon. </h3>
