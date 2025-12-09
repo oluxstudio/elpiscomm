@@ -32,6 +32,5 @@
     @stack('scripts')
     <!-- Optional: Toast/Notifications -->
     {{-- <x-notifications /> --}}
-
 </body>
 </html>
